@@ -11,7 +11,7 @@ setup(
     description='A library for generating cryptographically random UUIDs',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    packages=["pyrandomlycr"],
+    packages=["brasser"],
     install_requires=[],
     classifiers=[
         'Programming Language :: Python :: 3',
