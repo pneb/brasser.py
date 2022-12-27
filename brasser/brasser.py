@@ -7,7 +7,7 @@ def generate_uuid():
     Generate a cryptographically random UUID.
     """
     # Get 128 random bits
-    random_bits = os.urandom(16)
+    random_bits = bytearray(os.urandom(16))
 
     # Set the variant and version bits
     random_bits[8] = random_bits[8] & 0x3f | 0x80
