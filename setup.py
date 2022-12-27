@@ -5,7 +5,7 @@ with open('README.md', 'r') as f:
 
 setup(
     name='brasser',
-    version='1.0.3',
+    version='1.0.5',
     author='Bernward Sanchez',
     author_email='contact@bern.codes',
     description='A library for generating cryptographically random UUIDs',
