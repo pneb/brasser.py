@@ -5,13 +5,13 @@ with open('README.md', 'r') as f:
 
 setup(
     name='brasser',
-    version='1.0.0',
+    version='1.0.1',
     author='Bernward Sanchez',
     author_email='contact@bern.codes',
     description='A library for generating cryptographically random UUIDs',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    py_modules=['brasser'],
+    packages=["pyrandomlycr"],
     install_requires=[],
     classifiers=[
         'Programming Language :: Python :: 3',
